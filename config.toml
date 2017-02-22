@@ -69,7 +69,7 @@ theme = "iaas"
     [[params.services.list]]
       icon = "fa-database"
       title = "Object storage"
-      description = "Filesystems are hard. Don't need them any more? Use objects. Coming soon."
+      description = "Filesystems are hard. Don't need them any more? Use objects. **Coming soon.**"
 
     [[params.services.list]]
       icon = "fa-globe"
