@@ -1,0 +1,111 @@
+baseurl = "http://www.uh-iaas.no/"
+languageCode = "en-US"
+title = "UH IaaS"
+theme = "iaas"
+
+[params]
+
+  # You can use Markdown syntax for urls [text](//url.to/source) for
+  # most longer texts.
+
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # All projects of the portfolio are defined in their own files.
+  # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+  # folder into the 'data' directory at the root of this Hugo site.
+  # For more informtion take a look at the README.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "UH IaaS"
+  description = "The Norwegian academic community cloud"
+
+  # The path must be relative to the static folder
+  favicon = "favicon.ico"
+
+  # Navigation
+  [params.navigation]
+    brand = "UH IaaS"
+
+    [params.navigation.links]
+      about          = "About"
+      services       = "Services"
+  #   portfolio      = "Our team"
+      contact        = "Contact"
+
+  # Hero section
+  [params.hero]
+    # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+    slogan     = "Infrastructure for your research and ideas"
+    subtitle   = "Fast, standardized servers and storage for the Norwegian higher education sector, available when you need it. Get access to a secure and modern IT infrastructure where you - the students and scientists - set the goals."
+    buttonText = "Find out more"
+
+
+  # About section
+  [params.about]
+    headline    = "We've got what you need!"
+    description = "Traditionally, getting access to IT resources has been a longwinded process. The UH IaaS service deliver standardized servers and storage quickly with less effort where you - the user - are the driver. Our self-service platform is built on [OpenStack](//www.openstack.org), an industry standard management system."
+    buttonText1 = "Start using the service"
+    buttonLink1 = "https://access.uh-iaas.no/"
+    buttonText2 = "Login for existing users"
+    buttonLink2 = "https://dashboard.uh-iaas.no/"
+
+  # Service section
+  [params.services]
+    headline = "Self Serviced Infrastructure"
+
+    [[params.services.list]]
+      icon = "fa-server"
+      title = "Compute"
+      description = "Any capacity, any OS. Bring your own, or use our managed templates."
+
+    [[params.services.list]]
+      icon = "fa-hdd-o"
+      title = "Block storage"
+      description = "Capacity as you go. You store data, we'll expand as needed."
+
+    [[params.services.list]]
+      icon = "fa-database"
+      title = "Object storage"
+      description = "Filesystems are hard. Don't need them any more? Use objects. Coming soon."
+
+    [[params.services.list]]
+      icon = "fa-globe"
+      title = "Geo redundancy"
+      description = "Sites located in Bergen and Oslo. They won't both go down at once."
+
+#    [[params.services.list]]
+#      icon = "fa-heart"
+#      title = "Open source"
+#      description = "Monitor and inspect every single change. We do, or you do. Built with trust."
+
+#    [[params.services.list]]
+#      icon = "fa-slack"
+#      title = "Open minds"
+#      description = "Ready to start your next project with us? Need help? Come talk to us!"
+
+  # Portfolio modals
+  [params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+  [params.aside]
+    headline = "Great. Where do I get more details?"
+
+    [params.aside.button]
+      text = "Read more"
+      link = "//docs.uh-iaas.no/"
+
+  # Contact section
+  [params.contact]
+    headline = "Getting Help"
+    description = "Are you having trouble using the service? Do you need more resources for your project? If you have any questions, we're here for you. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick questions, as well as more formal means of communication. Tell us how we can help!"
+    slack = "https://uhps.slack.com/messages/iaas/"
+    github = "https://github.com/norcams/iaas/issues"
+    email = "support@uh-iaas.no"
+
