@@ -38,7 +38,7 @@ theme = "iaas"
   # Hero section
   [params.hero]
     # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-    slogan     = "foo Infrastructure for your research and ideas"
+    slogan     = "Infrastructure for your research and ideas"
     subtitle   = "Fast, standardized servers and storage for the Norwegian higher education sector, available when you need it. Get access to a secure and modern IT infrastructure where you - the students and scientists - set the goals."
     buttonText = "Find out more"
 
