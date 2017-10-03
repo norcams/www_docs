@@ -1,6 +1,0 @@
-# .gitignore
-.vagrant
-*~
-*.swp
-*.pyc
-docs/_*/
