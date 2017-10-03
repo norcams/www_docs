@@ -106,6 +106,5 @@ theme = "iaas"
     headline = "Getting Help"
     description = "Are you having trouble using the service? Do you need more resources for your project? If you have any questions, we're here for you. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick questions, as well as more formal means of communication. Tell us how we can help!"
     slack = "https://uhps.slack.com/messages/iaas/"
-    github = "https://github.com/norcams/iaas/issues"
     email = "support@uh-iaas.no"
 
