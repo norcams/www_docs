@@ -18,6 +18,9 @@
                     <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
+                    <a href="http://docs.uh-iaas.no/">{{ with .Site.Params.navigation.links.documentation }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
@@ -25,6 +28,12 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
+                    <a href="https://dashboard.uh-iaas.no/">{{ with .Site.Params.navigation.links.signin }}{{ . }}{{ end }}</a>
+                </li>
+                <li>
+                    <a href="https://access.uh-iaas.no/">{{ with .Site.Params.navigation.links.signup }}{{ . }}{{ end }}</a>
                 </li>
             </ul>
         </div>

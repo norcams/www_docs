@@ -31,9 +31,12 @@ theme = "iaas"
 
     [params.navigation.links]
       about          = "About"
+      documentation  = "Documentation"
       services       = "Services"
   #   portfolio      = "Our team"
       contact        = "Contact"
+      signin         = "Sign in"
+      signup         = "Sign up"
 
   # Hero section
   [params.hero]
