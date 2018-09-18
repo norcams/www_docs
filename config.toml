@@ -34,6 +34,7 @@ theme = "iaas"
       documentation  = "Documentation"
       services       = "Services"
   #   portfolio      = "Our team"
+      status         = "Status"
       contact        = "Contact"
       signin         = "Sign in"
       signup         = "Sign up"
@@ -89,12 +90,6 @@ theme = "iaas"
 #      title = "Open minds"
 #      description = "Ready to start your next project with us? Need help? Come talk to us!"
 
-  # Portfolio modals
-  [params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
 
     # Aside section
   [params.aside]
@@ -104,10 +99,17 @@ theme = "iaas"
       text = "Read more"
       link = "//docs.uh-iaas.no/"
 
+  # Status
+  [params.status]
+    headline = "News and status messages"
+    description = "We have a status dashboard with stats, news and status messages. If there are any interruptions in service, we will post it here. We also publish news and important messages on Twitter."
+    status = "https://status.uh-iaas.no"
+    twitter = "https://www.twitter.com/uhiaas"
+
   # Contact section
   [params.contact]
     headline = "Getting Help"
-    description = "Are you having trouble using the service? Do you need more resources for your project? If you have any questions, we're here for you. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick questions, as well as more formal means of communication. We also publish news and status messages on Twitter and on our status dashboard. Don't hesitate to get in touch with us!"
+    description = "Are you having trouble using the service? Do you need more resources for your project? If you have any questions, we're here for you. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick questions, as well as more formal means of communication. Don't hesitate to get in touch with us!"
     slack = "https://uhps.slack.com/messages/iaas/"
     status = "https://status.uh-iaas.no"
     twitter = "https://www.twitter.com/uhiaas"
