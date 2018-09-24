@@ -1,5 +1,5 @@
 baseurl = "http://www.uh-iaas.no/"
-languageCode = "en-US"
+languageCode = "en-GB"
 title = "UH IaaS"
 theme = "iaas"
 
@@ -20,7 +20,7 @@ theme = "iaas"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "UH IaaS"
-  description = "The Norwegian academic community cloud"
+  description = "The Norwegian Academic Community Cloud"
 
   # The path must be relative to the static folder
   favicon = "favicon.ico"
@@ -33,7 +33,6 @@ theme = "iaas"
       about          = "About"
       documentation  = "Documentation"
       services       = "Services"
-  #   portfolio      = "Our team"
       status         = "Status"
       contact        = "Contact"
       signin         = "Sign in"
@@ -42,15 +41,14 @@ theme = "iaas"
   # Hero section
   [params.hero]
     # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-    slogan     = "Infrastructure for your research and ideas"
-    subtitle   = "Fast, standardized servers and storage for the Norwegian higher education sector, available when you need it. Get access to a secure and modern IT infrastructure where you - the students and scientists - set the goals."
+    slogan     = "A Norwegian Cloud-Based Infrastructure for Research and Education"
+    subtitle   = "Fast, standardized servers and storage for the Norwegian higher education sector. Get access to a self-service, modern and secure IT infrastructure, available when you need it."
     buttonText = "Find out more"
-
 
   # About section
   [params.about]
-    headline    = "We've got what you need!"
-    description = "Traditionally, getting access to IT resources has been a longwinded process. The UH IaaS service deliver standardized servers and storage quickly with less effort where you - the user - are the driver. Our self-service platform is built on [OpenStack](//www.openstack.org), an industry standard management system."
+    headline    = "The Future of IT is in the Clouds"
+    description = "In the past, getting access to IT resources has been a long-winded process. The UH IaaS service delivers standardized servers and storage quickly with less effort. Our self-service platform is built on [OpenStack](//www.openstack.org), an industry standard for cloud computing."
     buttonText1 = "Start using the service"
     buttonLink1 = "https://access.uh-iaas.no/"
     buttonText2 = "Login for existing users"
@@ -58,42 +56,31 @@ theme = "iaas"
 
   # Service section
   [params.services]
-    headline = "Self Serviced Infrastructure"
+    headline = "Self-Service Infrastructure"
 
     [[params.services.list]]
       icon = "fa-server"
       title = "Compute"
-      description = "Any capacity, any OS. Bring your own, or use our managed templates."
+      description = "We offer a great variety capacities and operating systems, and customized solutions if you have special requirements."
 
     [[params.services.list]]
       icon = "fa-hdd-o"
-      title = "Block storage"
-      description = "Capacity as you go. You store data, we'll expand as needed."
+      title = "Block Storage"
+      description = "Our fully self-service block storage allows you to create and expand volumes on the fly."
 
     [[params.services.list]]
       icon = "fa-database"
-      title = "Object storage"
-      description = "Filesystems are hard. Don't need them any more? Use objects. **Coming soon.**"
+      title = "Object Storage"
+      description = "If you need to collect, store and analyze data on a larger scale, we offer robust and highly scalable object storage based on Ceph **Coming soon.**"
 
     [[params.services.list]]
       icon = "fa-globe"
-      title = "Geo redundancy"
-      description = "Sites located in Bergen and Oslo. They won't both go down at once."
-
-#    [[params.services.list]]
-#      icon = "fa-heart"
-#      title = "Open source"
-#      description = "Monitor and inspect every single change. We do, or you do. Built with trust."
-
-#    [[params.services.list]]
-#      icon = "fa-slack"
-#      title = "Open minds"
-#      description = "Ready to start your next project with us? Need help? Come talk to us!"
-
+      title = "Geo Redundancy"
+      description = "We have data centres located in Bergen and Oslo for high availability and redundancy.
 
     # Aside section
   [params.aside]
-    headline = "Great. Where do I get more details?"
+    headline = "Where do I get more details?"
 
     [params.aside.button]
       text = "Read more"
@@ -101,16 +88,14 @@ theme = "iaas"
 
   # Status
   [params.status]
-    headline = "News and status messages"
-    description = "We have a status dashboard with stats, news and status messages. If there are any interruptions in service, we will post it here. We also publish news and important messages on Twitter."
+    headline = "News and Status Messages"
+    description = "We have a status dashboard with stats, news and status messages. If there are any interruptions in service, we will post it here. We also publish news and important notification on Twitter."
     status = "https://status.uh-iaas.no"
     twitter = "https://www.twitter.com/uhiaas"
 
   # Contact section
   [params.contact]
     headline = "Getting Help"
-    description = "Are you having trouble using the service? Do you need more resources for your project? If you have any questions, we're here for you. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick questions, as well as more formal means of communication. Don't hesitate to get in touch with us!"
+    description = "Are you having trouble using the service? Do you need more resources for your project? Don't hesitate to get in touch with us. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick enquiries, as well as more formal means of communication.
     slack = "https://uhps.slack.com/messages/iaas/"
-    status = "https://status.uh-iaas.no"
-    twitter = "https://www.twitter.com/uhiaas"
     email = "support@uh-iaas.no"
