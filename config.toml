@@ -96,6 +96,6 @@ theme = "iaas"
   # Contact section
   [params.contact]
     headline = "Getting Help"
-    description = "Are you having trouble using the service? Do you need more resources for your project? Don't hesitate to get in touch with us. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick enquiries, as well as more formal means of communication.
+    description = "Are you having trouble using the service? Do you need more resources for your project? Don't hesitate to get in touch with us. We have an [informal Slack channel](https://uhps.slack.com/messages/iaas/) for discussions and quick enquiries, as well as more formal means of communication."
     slack = "https://uhps.slack.com/messages/iaas/"
     email = "support@uh-iaas.no"
