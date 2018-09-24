@@ -76,7 +76,7 @@ theme = "iaas"
     [[params.services.list]]
       icon = "fa-globe"
       title = "Geo Redundancy"
-      description = "We have data centres located in Bergen and Oslo for high availability and redundancy.
+      description = "We have data centres located in Bergen and Oslo for high availability and redundancy."
 
     # Aside section
   [params.aside]
