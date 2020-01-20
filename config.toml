@@ -1,4 +1,4 @@
-baseurl = "http://www.uh-iaas.no/"
+baseurl = "https://www.uh-iaas.no/"
 languageCode = "en-GB"
 title = "UH IaaS"
 theme = "iaas"
