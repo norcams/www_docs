@@ -91,7 +91,7 @@ theme = "iaas"
     headline = "News and Status Messages"
     description = "We have a status dashboard with stats, news and status messages. If there are any interruptions in service, we will post it here. We also publish news and important notification on Twitter."
     status = "https://status.uh-iaas.no"
-    twitter = "https://www.twitter.com/uhiaas"
+    twitter = "https://twitter.com/nrec_no"
 
   # Contact section
   [params.contact]
